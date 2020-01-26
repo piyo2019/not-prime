@@ -4,5 +4,5 @@
 - Choromeでしか動作確認していません。
 
 # cloneの注意事項 
-- Node.js と Pug が必要です。clone 後，yarn install してください。
+- Node.js と Pug がインストールしてある必要があります。clone 後，yarn install もしてください。
 - npMapFile.json は.gitignore に入れていますので，同名のファイルを作ってください（最初の中身は`[[1,1]]`にしておくとよいでしょう）。
