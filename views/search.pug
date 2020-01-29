@@ -4,24 +4,22 @@ html(lang="jp")
     meta(charset="UTF-8")
     title 素数じゃない数あつめ
   body(style="background-color:#fff0f5;")
+    h3(align="center")
+      font(color="#b22222") 素数じゃない数あつめ
     div(align="right")
-      h3
-        font(color="#b22222") 素数じゃない数あつめ
-      a(href= "/home") → ホームへ戻る
-      br
-      a(href= '/list') → 別ページで集めた数字を見る
+      a(href= "/home")  [ホームへ戻る]      
     
     h2(align="center")
-      font(color="#8b4513") ランダムに出した数字を利用して素数じゃない数を探します。
+      font(color="#8b4513") 出した数の中に素数じゃないってわかる数字がないか調べてみました。
     br  
     
     h2(align="center") 
       font(color="#8b4513") 調べた数字
-    div(align="center" style="margin:10px 150px")
+    div(align="left" style="margin:10px 150px")
       h3 #{numbers1} 
     h2(align="center") 
       font(color="#8b4513") 結果
-    div(align="center" style="margin:10px 150px") 
+    div(align="left" style="margin:10px 150px") 
       h3 #{numbers2} 
     br
     br
@@ -38,8 +36,12 @@ html(lang="jp")
     
     h2(align="center") 
       font(color="#8b4513") --- これまでに集まったもの ---
-
-    div(align="center" style="margin:10px 200px") 
+      br
+    div(align="center")  
+      a(href= '/list') [小さい順に並べたものはこちら]
+      |（別ページ）
+    br  
+    div(align="left" style="margin:10px 200px") 
       h3 #{numbers3}
 
     div(align="center")  --- 以上です --- 
