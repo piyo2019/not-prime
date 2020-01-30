@@ -6,11 +6,22 @@ html(lang="jp")
   body(style="background-color:#fff0f5;")
     h1(align="center") 
       font(color="#b22222") 素数じゃない数あつめ
-    div(align="center") 素数じゃない数（ただし，偶数でも5の倍数でもないもの）を集めています。<br>（「1」はもう見つけてるよ！）
+    div(align="center" style="margin:10px 150px") 
+      font(color="#8b4513") 
+        h2      
+          |素数じゃない数（ただし，偶数でも5の倍数でもないもの）を集めています。
+      font(color="#cd853f")    
+        h5
+          |てきとーにとってきた数どうしの最大公約数を調べて「素数じゃない」ってわかった数を集めます。<br>偶数や5の倍数は見ただけでわかってつまんないからそれ以外の数で。あと，1はもう集めてます。<br>※「素数じゃない」ってならなかった数が素数とは限りません。
 
-    div(align="center") 現在，#{maxNow}までの数を#{kosuu}個ランダムのとってきて調べています。<br>集まった数は全部で#{total}個です
-
-    p(align="center")
-      a(href="/search")  [新しく調べた数字を見る]
-      br
-      a(href="/list")  [これまでに集めた数字を見る(小さい順にならべたもの）]
+    h2(align="center") 
+      font(color="#8b4513")
+        |現在，#{maxNow}までの数を#{kosuu}個ランダムにとってきて調べています。<br>これまでに集まった数は全部で#{total}個です。
+    br
+    div(align="center")
+      h3    
+        a(href="/search")  [素数じゃない数をさがす]
+      h3
+        a(href="/list")  [これまでに集めた数を見る]
+        br
+      h4 ※小さい順に並べています
