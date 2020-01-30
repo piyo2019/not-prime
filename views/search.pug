@@ -4,47 +4,44 @@ html(lang="jp")
     meta(charset="UTF-8")
     title 素数じゃない数あつめ
   body(style="background-color:#fff0f5;")
-    h3(align="center")
-      font(color="#b22222") 素数じゃない数あつめ
     div(align="right")
-      a(href= "/home")  [ホームへ戻る]      
+      a(href= "/home")  [ホームへ戻る]    
+      h3(align="center")
+        font(color="#b22222") 素数じゃない数あつめ
     
     h2(align="center")
-      font(color="#8b4513") 出した数の中に素数じゃないってわかる数字がないか調べてみました。
-    br  
-    
+      font(color="#8b4513") 素数じゃないってわかる数字がないか調べてみました。
+    br      
     h2(align="center") 
-      font(color="#8b4513") 調べた数字
+      font(color="#8b4513") 【調べた数】
     div(align="left" style="margin:10px 150px")
       h3 #{numbers1} 
+
     h2(align="center") 
-      font(color="#8b4513") 結果
+      font(color="#8b4513") 【結果】
     div(align="left" style="margin:10px 150px") 
-      h3 #{numbers2} 
-    br
+      h4 #{numbers2} 
     br
     div(align="center")
       font(color="#8b4513") 
         strong
+          |ということは，調べた数の中で素数じゃないとわかったのは…  
+    div(align="center" style="margin:10px 150px") 
+      h2 #{np} 
+        
+    div(align="center")
+      font(color="#8b4513") 
+        h4 というわけで…
+        h2 
           |素数じゃない数が新しく#{kosuuInArray}個みつかりました！
           br
           | 今，みつかっているのは全部で#{total}個です。
-          br 
-          |※再読み込みをすると，また探します。
-    br
-    br
-    
-    h2(align="center") 
-      font(color="#8b4513") --- これまでに集まったもの ---
-      br
-    div(align="center")  
-      a(href= '/list') [小さい順に並べたものはこちら]
-      |（別ページ）
-    br  
-    div(align="left" style="margin:10px 200px") 
-      h3 #{numbers3}
+        h4 ※再読み込みをすると，また探します。
 
-    div(align="center")  --- 以上です --- 
+    h3(align="center")  
+      a(href= '/list') [あつめた数字を見る（別ページ）]
+      br
+      |※小さい順に並べています
 
     script (src="./lib/get-and-check.js")
     
