@@ -1,7 +1,7 @@
 {
   "name": "not-prime",
   "version": "1.0.0",
-  "description": "get not prime number",
+  "description": "素数じゃない数あつめ",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
