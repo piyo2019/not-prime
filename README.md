@@ -1,5 +1,6 @@
 # not-prime について
-- 「N予備校 Webアプリコンテスト 2019冬」（https://progedu.github.io/web-contests/webcontest2019-winter/　）の応募作品「素数じゃない数あつめ」のコードのリポジトリです。
+- 「N予備校 Webアプリコンテスト 2019冬」（https://progedu.github.io/web-contests/webcontest2019-winter/　）
+の応募（予定）作品「素数じゃない数あつめ」のコードのリポジトリです。
 
 - Chorome（Windows10のPC）でしか動作確認していません。表示も（自宅の）PC画面用です。
 
@@ -7,6 +8,7 @@
 
 - 一定程度集まってきたら探す範囲を広げていきます。
 
+- ある程度集まってきたら，数を探す範囲を広げていきます。
 
 # cloneの注意事項 
 - Node.js と Pug がインストールしてある必要があります。clone 後，yarn install もしてください。
