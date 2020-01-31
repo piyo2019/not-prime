@@ -1,0 +1,8 @@
+{
+  "name": "not-prime",
+  "description": "素数じゃない数あつめ",
+  "repository": "https://github.com/piyo2019/not-prime",
+  "logo": "",
+  "keywords": ["node"],
+  "image": "heroku/nodejs"
+}
