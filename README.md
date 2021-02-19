@@ -1,5 +1,5 @@
 # not-prime について
-- 「N予備校 Webアプリコンテスト 2019冬」（https://progedu.github.io/web-contests/webcontest2019-winter/　）
+- 「N予備校 Webアプリコンテスト 2019冬」（https://progedu.github.io/web-contests/webcontest2019-winter/ ）
 の応募作品「素数じゃない数あつめ」のコードのリポジトリです。（2021/01/23：url修正）
 
 - Chorome（Windows10のPC）でしか動作確認していません。表示も（自宅の）PC画面用です。
