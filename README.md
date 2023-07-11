@@ -23,4 +23,5 @@
 
 - lib/util.jsにある変数max，kosuu，dを変えると，とってくる数の最大値，個数，最大値の増加幅が変わります。
 
-- herokuで公開したページ　https://nameless-river-75804.herokuapp.com/home　（2021/01/23：加筆）
+- ~~herokuで公開したページ　https://nameless-river-75804.herokuapp.com/home　（2021/01/23：加筆）~~  
+※Herokuの無料プランの終了（2022/11/28）に伴い，公開終了しました。
